@@ -22,7 +22,7 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
 	private let username = "Walter"
 	private let password = "123"
 
-	// MARK: - Lifecycles
+	// MARK: - Override Methods
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
@@ -31,7 +31,6 @@ class LoginViewController: UIViewController, UITextFieldDelegate {
 
 	}
 
-	// MARK: - Override Methods
 	override func touchesBegan(_ touches: Set<UITouch>, with event: UIEvent?) {
 		super.touchesBegan(touches, with: event)
 
